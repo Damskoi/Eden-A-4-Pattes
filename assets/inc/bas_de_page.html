@@ -1,0 +1,96 @@
+
+
+	<!--~~~~~~~~~~~~~|   BAS DE PAGE   |~~~~~~~~~~~~~-->
+
+	<footer id="basdepage">
+		<a href="" id="boutonTop">  
+			<button> top &uarr; </button>
+		</a>
+			<div id="liens">
+					<ul>
+						<li><a href="hotel.php">Venez échanger avec nous</a></li>
+						<li><a href="forum.php"> Venez nous découvrir </a></li>
+						<li><a href="contact.php"> Venez nous voir </a></li> 
+					</ul>
+			</div>
+			<div id="rs">
+					<section>
+						<a href="RSINSTA"><img src="assets/images/instagram (2).png" alt="Instagram"/></a>
+						<a href="RSTWITTER"><img src="assets/images/Twitter_gris.png" alt="Twitter"/> </a>
+						<a href="RSFB"><img src="assets/images/facebook-grey.png" alt="facebook"/></a>
+					</section>
+			</div>
+		</footer>
+		<style>	
+		/*~~~~~~~~~~~~~~|    BAS DE PAGE   |~~~~~~~~~~~~~~~~~~~~*/
+#basdepage
+{
+	/*border-top: 2px solid rgb(225,198,169);*/
+	color:white;
+	font-family: "batang";
+	font-weight:bold;
+	background-color:white;
+
+	/*////POUR CENTRER////*/
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	display :flex; 
+}
+
+#rs img
+{
+	width : 130px; /* taille des logos des reseaux sociaux */
+	height : 130px;
+	-moz-transition:rgb(00,00,80);
+	-webkit-transition: rgb(00,00,80);
+	-o-transition: rgb(00,00,80);
+	padding-left: 100px;
+
+
+}
+
+#rs img:hover{
+	opacity:0.5;
+	-moz-transition: rgb(00,00,80);
+	-webkit-transition: rgb(00,00,80);
+	-o-transition: rgb(00,00,80);
+}
+#rs
+{
+	padding-top:50px; /* rajouter un espace en haut des logos*/
+	padding-left: auto;
+	
+}
+#basdepage ul
+{
+	list-style:none;	
+}
+#basdepage #liens
+{
+	background-color: rgb(225,198,169);
+	padding-right: auto;
+	padding-left: auto;
+	font-size : 20px;
+}
+#basdepage a
+{
+	text-decoration:none;
+	color:white;
+	padding-right:70px;
+
+}
+#basdepage #liens li 
+{
+	border-bottom: 1px solid white;
+	padding-bottom:20px;
+	padding-top:15px;
+}
+	/*~~~~~~POUR LE BOUTON~~~~*/
+#boutonTop
+{
+	position:fixed;
+	bottom: 0px;
+	left: 0px;
+}
+</style>
